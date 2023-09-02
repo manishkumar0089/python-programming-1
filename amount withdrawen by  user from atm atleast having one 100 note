@@ -1,0 +1,18 @@
+amount=int(input("enter the value of amount:"))-100
+
+two_k=amount//2000
+amount=amount%2000
+
+five_h=amount//500
+amount=amount%500
+
+two_h=amount//200
+amount=amount%200
+
+one_h=amount//100
+
+
+print("notes of 2000:",two_k)
+print("notes of 500:", five_h)
+print("notes of 200:",two_h)
+print("notes of 100:",one_h+1)
