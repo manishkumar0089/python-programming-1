@@ -1,4 +1,4 @@
-a=int(input("enter the valuye of sec:"))
+a=int(input("enter the value of sec:"))
 b=a//3600
 a=a%3600
 
