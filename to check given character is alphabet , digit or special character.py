@@ -1,4 +1,4 @@
-ch=input("enter the value:")
+ch=input("enter the value=")
 if 'a'<=ch<='z or 'A'<=ch<='Z':
     print("This character ",ch,"is alphabet")
 elif '0'<=ch<='9':
